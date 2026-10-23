@@ -1,0 +1,6 @@
+CREATE OR REPLACE PROCEDURE SHOW_MESSAGE
+IS
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('welcome to pl/sql programing');
+END;
+/
